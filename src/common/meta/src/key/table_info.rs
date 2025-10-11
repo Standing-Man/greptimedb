@@ -328,6 +328,7 @@ mod tests {
             schema: RawSchema::from(&schema),
             engine: "mito".to_string(),
             created_on: chrono::DateTime::default(),
+            updated_on: chrono::DateTime::default(),
             primary_key_indices: vec![0, 1],
             next_column_id: 3,
             value_indices: vec![2, 3],
